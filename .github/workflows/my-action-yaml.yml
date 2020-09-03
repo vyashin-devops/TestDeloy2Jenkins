@@ -8,10 +8,18 @@ on:
 
 jobs:
 
-  build:
+  build1:
 
     runs-on: ubuntu-latest
 
     steps:
-    - name: Print Hello 
-      run: echo "Hi github Actions!"
+    - name: Print first Hello 
+      run: echo "Hi github Actions ONE!"
+   
+  build2:
+
+    runs-on: ubuntu-latest 
+    
+    steps:
+    - name: Print  second Hello 
+      run: echo "Hi github Actions TWO!"
