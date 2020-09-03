@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - name: Print first Hello 
-      run: echo "Hi github Actions ONE!"
+      run: eccho "Hi github Actions ONE!"
    
   build2:
 
